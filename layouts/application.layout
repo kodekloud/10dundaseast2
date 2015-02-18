@@ -147,7 +147,7 @@
         color:#009CDE;
     }
     #social_media_wrapper a:hover{
-        color:white;
+        color:white !important;
         background:#009CDE;
     }
     
