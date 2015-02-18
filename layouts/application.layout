@@ -144,7 +144,7 @@
     }
     #social_media_wrapper a:hover{
         color:white;
-        background:black;
+        background:#009CDE;
     }
     
     /*inside page banners*/
