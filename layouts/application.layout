@@ -109,6 +109,10 @@
     .main_window{
         border:40px solid #eaf1fb;
     }
+    
+    .portfolio_strict .portfolio_item figure figcaption .view_button {
+        background:#009CDE !important ;
+    }
     .btn-primary{
         background: #d9534f !important;
         border-color:#d43f3a !important;
