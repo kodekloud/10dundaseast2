@@ -95,7 +95,7 @@
     
     /*hyperlink hover color*/
     a:hover{
-        color:white !important;
+        color:#009CDE !important;
     }
     
     body{
