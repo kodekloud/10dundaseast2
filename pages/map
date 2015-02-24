@@ -161,7 +161,7 @@
                         break;
                 }
                 console.log(stores[i].z_coordinate)
-               $("#storelist_container").append('<option value="'+stores[i].x_coordinate+','+stores[i].y_coordinate+','+stores[i].id+','+stores[i].z_coordinate+'">'+stores[i].name+'</option>') 
+               $("#storelist_container").append('<option value="'+stores[i].x_coordinate+','+stores[i].y_coordinate+','+stores[i].z_coordinate+'">'+stores[i].name+'</option>') 
                 
             }
             
@@ -340,7 +340,7 @@
         var zoomData = $('#png_map').smoothZoom('getZoomData');
         x_coord = parseInt(coords[0])
         y_coord = parseInt(coords[1])
-        floor = parseInt(coords[3])
+        floor = parseInt(coords[2])
         name = $("#storelist_container option:selected").text();
         $('#png_map').smoothZoom('removeLandmark')
         if (isMobile) {
