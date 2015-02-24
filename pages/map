@@ -136,6 +136,29 @@
             for(var i = 0; i < stores.length;i++){
                 // stores[i].x_coordinate = stores[i].x_coordinate - 10;
                 // stores[i].y_coordinate = stores[i].y_coordinate - 35;
+                switch(stores[i].z_coordinate) {
+                    case 0: 
+                        stores[i].z_coordinate = "B2"
+                        break;
+                    case 1:
+                        stores[i].z_coordinate = "B1"
+                        break;
+                    case 2:
+                        stores[i].z_coordinate = "Level 1"
+                        break;
+                    case 3:
+                        stores[i].z_coordinate = "Level 2"
+                        break;
+                    case 4:
+                        stores[i].z_coordinate = "Level 3"
+                        break;
+                    case 5:
+                        stores[i].z_coordinate = "Level 4"
+                        break;
+                    case 6:
+                        stores[i].z_coordinate = "Level 5"
+                        break;
+                }
                $("#storelist_container").append('<option value="'+stores[i].x_coordinate+','+stores[i].y_coordinate+','+stores[i].id+','+stores[i].z_coordinate+'">'+stores[i].name+'</option>') 
                 
             }
@@ -151,29 +174,6 @@
             $.each( collection , function( key, val ) {
                 val.x_coordinate = val.x_coordinate - 35;
                 val.y_coordinate = val.y_coordinate + 5;
-                switch(val.z_coordinate) {
-                    case 0: 
-                        val.z_coordinate = "B2"
-                        break;
-                    case 1:
-                        val.z_coordinate = "B1"
-                        break;
-                    case 2:
-                        val.z_coordinate = "Level 1"
-                        break;
-                    case 3:
-                        val.z_coordinate = "Level 2"
-                        break;
-                    case 4:
-                        val.z_coordinate = "Level 3"
-                        break;
-                    case 5:
-                        val.z_coordinate = "Level 4"
-                        break;
-                    case 6:
-                        val.z_coordinate = "Level 5"
-                        break;
-                }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
     
