@@ -138,28 +138,28 @@
                 // stores[i].y_coordinate = stores[i].y_coordinate - 35;
                 switch(stores[i].z_coordinate) {
                     case 0: 
-                        stores[i].z_coordinate = "B2"
+                        z_coordinate = "B2"
                         break;
                     case 1:
-                        stores[i].z_coordinate = "B1"
+                        z_coordinate = "B1"
                         break;
                     case 2:
-                        stores[i].z_coordinate = "Level 1"
+                        z_coordinate = "Level 1"
                         break;
                     case 3:
-                        stores[i].z_coordinate = "Level 2"
+                        z_coordinate = "Level 2"
                         break;
                     case 4:
-                        stores[i].z_coordinate = "Level 3"
+                        z_coordinate = "Level 3"
                         break;
                     case 5:
-                        stores[i].z_coordinate = "Level 4"
+                        z_coordinate = "Level 4"
                         break;
                     case 6:
-                        stores[i].z_coordinate = "Level 5"
+                        z_coordinate = "Level 5"
                         break;
                 }
-               $("#storelist_container").append('<option value="'+stores[i].x_coordinate+','+stores[i].y_coordinate+','+stores[i].id+','+stores[i].z_coordinate+'">'+stores[i].name+'</option>') 
+               $("#storelist_container").append('<option value="'+stores[i].x_coordinate+','+stores[i].y_coordinate+','+stores[i].id+','+z_coordinate+'">'+stores[i].name+'</option>') 
                 
             }
             
