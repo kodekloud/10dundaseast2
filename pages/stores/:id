@@ -213,6 +213,15 @@ background-color: #FFFFFF ;
             store_promos = promo_array;
             var jobs = getJobsForIds(store_details.jobs); 
             jobs = jobs.reverse();
+            jobs_array = []
+             $.each( all_jobs , function( key, val ){
+                 today = new Date();
+                 webDate = new Date(val.show_on_web_date);
+                 if (today >= webDate) {
+                     jobs_array.push(val)
+                 } 
+             });
+             jobs = jobs_array;
             $('#loading_screen').hide();
             $('#main_content').fadeIn();
             // store_details.map_x_coordinate = store_details.x_coordinate - 19;
