@@ -11,14 +11,15 @@
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
           <ul class="slides" id="home_banner">
+          
             <script id="banner_template" type="x-tmpl-mustache/text">
-           
-                 <li class="item">
+                 
+               <li class="item">
                 <a href="{{url}}" {{css}} onclick="{{noLink}}">
                     <img src="{{photo_url_abs}}"/>
                     </a>
                </li>
-               
+              
             </script>
           </ul>
      </div>
