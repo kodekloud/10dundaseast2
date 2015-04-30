@@ -72,6 +72,33 @@
                     <p class="directory_content">{{name}}</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                     <br>
+                    <p class="directory_content"><strong>Gordon W. Smith</strong> 
+                    <br>General Manager
+                    <br>416-591-2220 ext 22
+                    <br><a href="mailto:gsmith@bentallkennedy.com ">gsmith@bentallkennedy.com</a></p>
+                    <br>
+                    <p class="directory_content"><strong>Ludmila Dorosz</strong> 
+                    <br>Assistant Property Manager
+                    <br>416-591-2220  ext 21
+                    <br><a href="mailto:ldorosz@bentallkennedy.com ">ldorosz@bentallkennedy.com</a></p>
+                    <br>
+                   <p class="directory_content"><strong>Rob Tooke</strong> 
+                   <br>Operations Manager
+                   <br>416-591-2220 ext 24
+                   <br><a href="mailto:rtooke@bentallkennedy.com" target="_blank">rtooke@bentallkennedy.com</a></p>
+                   <br>
+                   <p class="directory_content"><strong>Jessica Kim</strong> 
+                   <br>Marketing Manager
+                   <br>416-591-2220 ext 31
+                   <br><a href="mailto:jkim@bentallkennedy.com" target="_blank">jkim@bentallkennedy.com</a></p>
+                  
+                   
+                    <br>
+                   <p class="directory_content"><strong>Security </strong> 
+                  
+                   <br>416-591-2220 ext 25
+                 </p>
                 </script>
             </div>
             
