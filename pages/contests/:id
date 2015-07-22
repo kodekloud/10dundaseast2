@@ -234,7 +234,7 @@
                         alert("Please try again later.");
                     }
             });  
-            $.ajax({
+             $.ajax({
                 url: host+"/newsletter_no_captcha",
                 type: "POST",
                 data: data,
@@ -242,7 +242,8 @@
                     window.location.href="/contest_thank_you";
                 },
                 error: function(data){
-                    alert("There was an issue with submitting the contest entry. Please try again at a later time.")
+                    // alert("There was an issue with submitting the contest entry. Please try again at a later time.")
+                    window.location.href="/contest_thank_you";
                 }
             });
         }
